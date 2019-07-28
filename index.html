@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <link rel="" href="index.css"> -->
+<link rel="shortcut icon" href="">
+<meta charset="UTF-8">
+<title>TODO LIST</title>
+
+</head>
+
+<body onload="printTodo('todo');">
+  <div id="myDIV" class="todo_outer">
+    <h1 align="center">TODO APP</h1>
+<!--     <p align="center">In This application you can add some task. Once you start working on the task you can move it to In progress and after completion to done. You can also move back to the previous stage. You have close button on each task to close the task.</p> -->
+    <form action="#" id="myForm">
+      <span class="input">
+        <input type="text" name="input_data" placeholder="Enter Task, Please make sure you don't use ','">
+        <button class="button1" onclick="addTask()">ADD</button>
+      </span>
+    </form>
+    </br>
+    </br>
+    <div class="content">
+    
+      <div class="topnav" >
+        <a href="#" id="li_todo" onclick='printTodo("todo");'>Todo</a>
+        <a href="#" id="li_inprogress" onclick='printTodo("inprogress");'>In Progress</a>
+        <a href="#" id="li_done" onclick='printTodo("done");'>Done</a>
+      </div>
+      <div id="demo" class="demo_class">
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+<link rel="stylesheet" href="index.css">
+
+<script type="text/javascript" src="index_new.js"></script>
+</html>
