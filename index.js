@@ -123,7 +123,7 @@ const readData = () => {
         xhr.send();
     });
 };
-
+//Implementation of promise chaining for deleting all the todo tasks.
 // eslint-disable-next-line no-unused-vars
 const deleteAll = () => {
     let Promise1 = readData();
